@@ -1,14 +1,14 @@
-package hash
+package com.hash.learn.scala
 
 /**
-  * Created by Hash Zhang on 2016/7/19.
+  * @author Hash Zhang
+  * @date 2016/7/20
+  * @version 1.0.0
   */
 object Main {
   def main(args: Array[String]) {
     println("************************************************************")
     println("*********Hello, there! This is for learning scala!**********")
     println("************************************************************")
-
-    lesson1.test1();
   }
 }
