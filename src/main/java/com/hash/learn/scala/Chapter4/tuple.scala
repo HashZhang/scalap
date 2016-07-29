@@ -9,11 +9,11 @@ object tuple {
   def test = {
     val tuple1 = (1, 2, 3, 9.0, "hello")
     val element1 = tuple1._1
-    println(element1)
+    println(element1)//输出：1
 
     val (_, second, third, _, _) = tuple1
-    println(second)
-    println(third)
+    println(second)//输出：2
+    println(third)//输出：3
 
   }
 }

@@ -12,6 +12,6 @@ object zipOperation {
     val keyvalue = key.zip(value)
     val map = keyvalue.toMap
 
-    println(map.mkString("<", ",", ">"))
+    println(map.mkString("<", ",", ">"))//输出：<zhx -> 1,dick -> 2,hash -> 3>
   }
 }

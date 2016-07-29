@@ -14,6 +14,7 @@ object CMain {
     mapping.constructMap
     mapping.curdMap
     mapping.traverseMap
+    mapping.sortedMap
 
     tuple.test
     zipOperation.test
