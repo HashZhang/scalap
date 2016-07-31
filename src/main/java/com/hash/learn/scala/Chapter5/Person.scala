@@ -20,10 +20,10 @@ class Person(val name: String, var age: Int, var salary: Int) {
 
 object Person1 {
   def test = {
-    val person = new Person("zhxhash", 24, 20000)
-    println(person.description)
+    val person = new Person("zhxhash", 24, 20000)//输出：Main constructor is called!
+    println(person.description)//输出：Name: zhxhash, Age: 24, Salary: 20000
 
-    val person2 = new Person("zhxdick", 15)
-    println(person2.description)
+    val person2 = new Person("zhxdick", 15)//输出：Main constructor is called!
+    println(person2.description)//输出：Name: zhxdick, Age: 15, Salary: 0
   }
 }

@@ -21,7 +21,7 @@ object Exercise {
   def ex01 = {
     val counter = new Counter(Int.MaxValue)
     counter.increment()
-    println(counter.current)
+    println(counter.current)//输出：0
   }
 
   class BankAccount(private var balance: Double) {
@@ -40,7 +40,7 @@ object Exercise {
     val bankAccount = new BankAccount(100000)
     bankAccount.deposit(99)
     bankAccount.withdraw(88)
-    println(bankAccount.currentBalance)
+    println(bankAccount.currentBalance)//输出：100011.0
   }
 
   class Time(private val hours: Int, private val minutes: Int) {
@@ -59,7 +59,7 @@ object Exercise {
     val time2 = new Time(13, 25)
     val time3 = new Time(14, 25)
 
-    println(time.description + time2.description + time.before(time2))
-    println(time.description + time3.description + time.before(time3))
+    println(time.description + time2.description + time.before(time2))//输出：[13:59][13:25]true
+    println(time.description + time3.description + time.before(time3))//输出：[13:59][14:25]false
   }
 }

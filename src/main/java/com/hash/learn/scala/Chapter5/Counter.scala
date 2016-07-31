@@ -40,12 +40,12 @@ object Counter1 {
   val counter = new Counter
   def testClass = {
     //习惯上取值器不加括号
-    println(counter.current)
+    println(counter.current)//输出：0
     //习惯上改值器加括号
     counter.increment()
-    println(counter.current)
+    println(counter.current)//输出：1
 
     val counter2 = new Counter
-    println(counter.largerThan(counter2))
+    println(counter.largerThan(counter2))//输出：true
   }
 }
