@@ -8,7 +8,7 @@ package com.hash.learn.scala.Chapter5
 object CMain {
   def main(args: Array[String]) {
     println("************************************************************")
-    println("************************Chapter 4***************************")
+    println("************************Chapter 5***************************")
     println("************************************************************")
 
     Counter1.testClass
