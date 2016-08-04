@@ -55,12 +55,13 @@ package com {
 
 
 
+
       object test4 {
         def execute = {
           //默认scala包是被载入的
           //val a = collection.mutable.ArrayBuffer(1,2,3,4) 语句有错，因为是相对路径引入包
           //任意地方可以import可以:
-          import scala.collection.mutable.ArrayBuffer
+          import _root_.scala.collection.mutable.ArrayBuffer
           val a = ArrayBuffer(1,2,3,4)
           //也可以绝对路径
           val b = _root_.scala.collection.mutable.ArrayBuffer(1,2,3,4)
