@@ -16,7 +16,7 @@ object renameAndHide {
   }
 
   import java.util.{HashMap => _}
-  import scala.collection.immutable.HashMap
+  import scala.collection.mutable.HashMap
 
   def execute = {
     val a = HashMap(1 -> 2)
